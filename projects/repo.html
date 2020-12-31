@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="ThinkTankers'Assembly Official Website" />
+    <meta
+      name="keywords"
+      content="TTA, ThinkTankers'Assembly, Thinktankers Assembly"
+    />
+    <meta name="author" content="Muhammad Riza Fairuzzabadi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Adding bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <!--New Bootstrap Version-->
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="repo.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled1", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <title>TTA Repository</title>
+  </head>
+
+  <body id="bg-repo">
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="navbar fixed-top navbar-expand-lg navbar-light">
+      <div class="container">
+        <a
+          style="font-weight: 800"
+          class="navbar-brand"
+          href="https://thinktankersassembly.com"
+          >TTA.</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-riza"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-riza">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://thinktankersassembly.com"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a
+                class="nav-link navselected"
+                href="https://thinktankersassembly.com/projects.html"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://thinktankersassembly.com/about.html"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled navselected"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >ThinkTankers'Assembly.</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="repoupper">
+      <div class="display-1 container">
+        <h1 style="color: white">#Repository.</h1>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="card-deck">
+        <div class="card cardmobile" style="width: 18em">
+          <img
+            class="card-img-top"
+            src="repo/images/yahya-bg.jpg"
+            alt="Card image cap"
+            style="object-fit: cover; height: 16em"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Science and Religion.</h5>
+            <p class="card-text">
+              The world is gradually becoming less religious as it's advancing in and relying more on science. 
+              Will religion cease to exist, or is there a way it can still be compatible with science?
+              <br />
+              <small>- Yahya Aminov</small>
+            </p>
+            <a href="repo/science-and-religion.html" class="btn btn-light"
+              >Read</a
+            >
+          </div>
+        </div>
+
+        <div class="card cardmobile" style="width: 18em">
+          <img
+            class="card-img-top"
+            src="images/senabg.jpg"
+            alt="Card image cap"
+            style="object-fit: cover; height: 16em"
+          />
+          <div class="card-body">
+            <h5 class="card-title">The Duality of Modernization</h5>
+            <p class="card-text">
+              Every important judgment about life contains a contradiction, and
+              modernization, with its paradoxical character, has caused a
+              tension in this direction in the transition from traditional
+              society to modern society.
+              <br />
+              <small>- Sena Karavas</small>
+            </p>
+            <a href="repo/duality-of-modernization.html" class="btn btn-light"
+              >Read</a
+            >
+          </div>
+        </div>
+
+        <div class="card cardmobile" style="width: 18em">
+          <img
+            class="card-img-top"
+            src="images/bg-thought.jpg"
+            alt="Card image cap"
+            style="object-fit: cover; height: 16em"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Article Draft</h5>
+            <p class="card-text">
+              Click to see how an article is gonna look on the website
+            </p>
+            <a href="repo/text-sample.html" class="btn btn-light">Go there!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container footcon">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <img
+              src="images/TTA Logo White.png"
+              class="logomobile img-fluid w-25 mx-auto d-block rounded-circle"
+              alt="Logo"
+            />
+          </div>
+          <div class="col"></div>
+        </div>
+        <br />
+        <p style="color: grey; text-align: center">
+          &copy; 2020 ThinkTankers'Assembly.
+        </p>
+      </div>
+    </section>
+
+    <!-- Thinkathon is the sub-project of the
+        assembly which gathers young people to discuss the cultural, economic,
+        global problems and also the problems that youth of today is challenging
+        and to talk the solutions that can be brought to them by the actions of
+        young communities. Beyond that, the possible resolutions that today’s
+        rule makers should  have for the discussed problems is being talked in
+        the second step. The topic which is being discussed in this session are
+        mostly related to the previous speech\ presentations. In the end of each
+        session, the co-managers write down the highlights of the discussion and
+        the resolutions which are found by the participants. The co-managers
+        publish the notes that have been taken as the reports on the website
+        ,which will be established soon, and also on the social platforms. -->
+  </body>
+</html>
